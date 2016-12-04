@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(275579349)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -323,109 +323,97 @@ This command will send text to [group_id]
 » Only owner can use res,setowner,promote,demote and log commands
 
 ]],
-    help_text = [[
-Commands list :
-
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
+    help_text = [[لیست دستورات در گروه :
+!kick [username|id]👤
+شخص مورد نظر از گروه اخراج ميشود
+_________________________________________
+!ban [ username|id]😟
+شخص مورد نظر از گروه تحریم میشود
+________________________________________
+!unban [id]😃
+شخص مورد نظر از تحریم خارج ميشود
+_________________________________________
+!who 👨‍👩‍👧‍👦
+لیست وتوضیحات درموردعضایه گروه
+_________________________________________
+!modlist 😍
+لیست کمک مدیرها
+_________________________________________
 !promote [username]
-Promote someone
-
+اضافه کردن کمک مدیر
+_________________________________________
 !demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
+حذف کردن کمک مدیر
+_________________________________________
+!kickme🔫
+ترک گروه
+_________________________________________
 !about
-Group description
-
+درباره گروه🏷
+_________________________________________
 !setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
+اضافه کردن وقفل عکس گروه🌅
+_________________________________________
+!setname [name]⛩
+عوض کردن نام گروه
+_________________________________________
 !rules
-Group rules
-
-!id
-Return group id or user id
-
+قوانین گروه⚖⚖
+_________________________________________
+!id «ریپلی»
+نمایش کدایدی اعضایاگروه یاربات🤖
+_________________________________________ 
 !help
-Get commands list
-
+کمک لیست گروه وراهنمایی مدیران
+_________________________________________
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
-
+قفل [اعضا|نام|ربات |تگ|عکس|خروج|فحش]🔒
+_________________________________________
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-
+باز کردن [اعضا|نام|ربات |تگ|عکس|خروج|فحش]🔓
+_________________________________________
 !set rules [text]
-Set [text] as rules
-
+تنظیم قانون<متن>⚖
+_________________________________________
 !set about [text]
-Set [text] as about
-
+تنظیم توضیحات<متن> 
+_________________________________________
 !settings
-Returns group settings
-
+ تنظیمات گروه🛠
+_________________________________________
 !newlink
-Create/revoke your group link
-
+تعویض لینک و ارسال درگروه🏵
+_________________________________________
 !link
-Returns group link
-
+ارسال در چت خصوصی 💷
+_________________________________________
 !owner
-Returns group owner id
-
+نمایش آیدی صاحب گروه
+_________________________________________
 !setowner [id]
-Will set id as owner
-
+تنظیم صاحب جدیدگروه
+_________________________________________
 !setflood [value]
 Set [value] as flood sensitivity
-
 !stats
 Simple message statistics
-
+_________________________________________
 !save [value] [text]
-Save [text] as [value]
-
-!get [value]
-Returns text of [value]
-
+سیومتن و.....درگروه
+_________________________________________
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-Returns user id
-
-!log
-Will return group logs
-
-!banlist
-Will return group ban list
-
-» U can use both "/" and "!" 
-
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
+پاکسازی مدیرها/قوانین/موضوع✏️
+_________________________________________
+!banlist👥
+لیست افرادی که از گروه تحریم شده اند
+_________________________________________
+سودووطراح ربات ضداسپم:»
+نکته »»قبل از نوشتن کلمه های بالا گذاشتن   !    
+دراول دستور فراموش نشود
+_________________________________________
+سودووطراح ربات ضداسپم:»
+https://telegram.me/OoO_SAMAN_edris_shahe_tele_OoO
+منتظر شمادوستان گل هستیم ❤️🌹💋
 
 ]]
   }
